@@ -2,5 +2,6 @@ from random import randrange
 
 
 
-
-print(randrange(6))
+def wuerfeln():
+    return randrange(6) + 1
+print(wuerfeln())
